@@ -30,7 +30,7 @@ jobs:
 
       - name: Run scraper
         env:
-          START_URL: https://www.laccd.edu/students/class-search
+          START_URL: https://mycollege-guest.laccd.edu/psc/classsearchguest/EMPLOYEE/HRMS/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL
         run: |
           python fetch_ztc.py
 
